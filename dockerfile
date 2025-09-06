@@ -1,4 +1,4 @@
-# Use official Node.js image as base
+# Use official Node.js image
 FROM node:18-alpine
 
 # Set working directory
@@ -8,16 +8,16 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copy the rest of your app
+# Copy the rest of the app
 COPY . .
 
 # Build the Vite app
 RUN npm run build
 
-# Use a lightweight web server to serve the built files
+# Install serve to host static files
 RUN npm install -g serve
 
-# Expose the default port
+# Expose port 8080
 EXPOSE 8080
 
 # Start the app
