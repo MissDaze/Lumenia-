@@ -20,7 +20,7 @@ steps:
       - 'deploy'
       - 'lumenia'
       - '--image=gcr.io/$PROJECT_ID/lumenia:$COMMIT_SHA'
-      - '--region=australia-southeast1'
+      - '--region=australia-southeast2'
       - '--platform=managed'
       - '--allow-unauthenticated'
 
