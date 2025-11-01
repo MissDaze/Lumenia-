@@ -1,0 +1,8 @@
+export default function FAQ() {
+  return (
+    <div>
+      <h1>FAQ</h1>
+      <p>Frequently Asked Questions page coming soon.</p>
+    </div>
+  );
+}

@@ -10,6 +10,15 @@
 
 const OPENROUTER_API_KEY = "YOUR_OPENROUTER_API_KEY"; // <-- Put your key here
 
+// Aliases for backward compatibility
+export const InvokeLLM = async ({ prompt }) => {
+  return interpretDream(prompt);
+};
+
+export const GenerateImage = async ({ prompt }) => {
+  return generateImage(prompt);
+};
+
 // Dream Interpretation Function (Text Generation)
 export async function interpretDream(dreamText) {
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
