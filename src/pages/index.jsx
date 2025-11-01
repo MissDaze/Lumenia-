@@ -1,58 +1,58 @@
-import Layout from "./Layout.jsx";
+import Layout from "../Layout.jsx";
 
-import Home from "./Home";
+import Home from "../Home";
 
-import Dreams from "./Dreams";
+import Dreams from "../Dreams";
 
-import Profile from "./Profile";
+import Profile from "../Profile";
 
-import Fortune from "./Fortune";
+import Fortune from "../Fortune";
 
-import Horoscopes from "./Horoscopes";
+import Horoscopes from "../Horoscopes";
 
-import Tarot from "./Tarot";
+import Tarot from "../Tarot";
 
-import Admin from "./Admin";
+import Admin from "../Admin";
 
-import Runes from "./Runes";
+import Runes from "../Runes";
 
-import Astrology from "./Astrology";
+import Astrology from "../Astrology";
 
-import SonicAlchemy from "./SonicAlchemy";
+import SonicAlchemy from "../SonicAlchemy";
 
-import Landing from "./Landing";
+import Landing from "../Landing";
 
-import Contact from "./Contact";
+import Contact from "../Contact";
 
-import Terms from "./Terms";
+import Terms from "../Terms";
 
-import Privacy from "./Privacy";
+import Privacy from "../Privacy";
 
-import FAQ from "./FAQ";
+import FAQ from "../FAQ";
 
-import Refund from "./Refund";
+import Refund from "../Refund";
 
-import Disclaimer from "./Disclaimer";
+import Disclaimer from "../Disclaimer";
 
-import Checkout from "./Checkout";
+import Checkout from "../Checkout";
 
-import PaymentSuccess from "./PaymentSuccess";
+import PaymentSuccess from "../PaymentSuccess";
 
-import UserRegistration from "./UserRegistration";
+import UserRegistration from "../UserRegistration";
 
-import Dashboard from "./Dashboard";
+import Dashboard from "../Dashboard";
 
-import CreateSandyUser from "./CreateSandyUser";
+import CreateSandyUser from "../CreateSandyUser";
 
-import SimpleUserCreator from "./SimpleUserCreator";
+import SimpleUserCreator from "../SimpleUserCreator";
 
-import UserCreator from "./UserCreator";
+import UserCreator from "../UserCreator";
 
-import Sandy from "./Sandy";
+import Sandy from "../Sandy";
 
-import DivinationHub from "./DivinationHub";
+import DivinationHub from "../DivinationHub";
 
-import AstrologyHub from "./AstrologyHub";
+import AstrologyHub from "../AstrologyHub";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
