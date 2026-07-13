@@ -1,23 +1,34 @@
-git add README.md
-git commit -m "Trigger test"
-git push origin main
-# Base44 App
+# Lumenia
 
+A mystical/astrology web app offering horoscopes, astrology reports, dream interpretation, fortune telling, and a general divination hub, with a checkout flow for paid readings/content.
 
-This app was created automatically by Base44.
-It's a Vite+React app that communicates with the Base44 API.
+## Features
 
-## Running the app
+- Astrology hub and personalised astrology reports
+- Daily/personal horoscopes
+- Dream interpretation
+- Fortune telling and divination tools
+- Checkout flow for paid content
+- Admin user management
 
-```bash
-npm install
-npm run dev
-```
+## Tech Stack
 
-## Building the app
+- React (Vite)
+- Radix UI components
+- Base44 (backend API / auth integration)
 
-```bash
-npm run build
-```
+## Setup
 
-For more information and support, please contact Base44 support at app@base44.com.
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Configure any required Base44/API credentials.
+3. Run in development:
+   ```
+   npm run dev
+   ```
+4. Build for production:
+   ```
+   npm run build
+   ```
